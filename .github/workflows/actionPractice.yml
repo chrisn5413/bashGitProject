@@ -40,7 +40,6 @@ jobs:
   repo_forked:
 
     runs-on: ubuntu-latest
-    if: github.event_name == 'fork'
     needs: build
     env:
       user: Steven Universe
